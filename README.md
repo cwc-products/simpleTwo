@@ -1,6 +1,6 @@
 # simpleTwo
 
-Go Ducks!
+Go Ducks! - Chris
 
 I don't know what to write. - Linda
 
