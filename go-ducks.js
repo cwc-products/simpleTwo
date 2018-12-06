@@ -22,4 +22,3 @@ exports.goDucks = (function goDucks(messages = []) {
     }
   };
 })(consumables);
-
