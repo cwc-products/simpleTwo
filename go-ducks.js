@@ -1,4 +1,4 @@
-const consumables = [() => ''];
+const consumables = [() => 'SECRET'];
 
 /*
   DO NOT EDIT BELOW THIS LINE
@@ -22,3 +22,4 @@ exports.goDucks = (function goDucks(messages = []) {
     }
   };
 })(consumables);
+
