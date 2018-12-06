@@ -1,4 +1,5 @@
 const consumables = [() => ''];
+const consumables = [() => 'IT\'S'];
 
 /*
   DO NOT EDIT BELOW THIS LINE
