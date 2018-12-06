@@ -1,5 +1,5 @@
 
 const { goDucks } = require('./go-ducks');
-goDucks.appendMessages([() => 'A']);
 goDucks.appendMessages([() => 'SECRET']);
+goDucks.appendMessages([() => 'A']);
 console.log(goDucks.quack());
