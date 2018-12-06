@@ -1,4 +1,4 @@
-const consumables = [() => ''];
+const consumables = [() => 'EVERYBODY'];
 
 /*
   DO NOT EDIT BELOW THIS LINE
