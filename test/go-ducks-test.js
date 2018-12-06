@@ -5,12 +5,12 @@ const assert = require('assert'),
 vows.describe('serious-calculations').addBatch({
   'when performing serious calculations': {
     topic: () => {
-      goDucks.appendMessages([()=>'five by five']);
+      goDucks.appendMessages([()=>'five', ()=>'by', ()=>'five']);
       return goDucks.quack();
     },
     'result should be valid': (topic) => {
       assert.isString(topic);
-      assert.equal(topic, 'five');
+      assert.equal(topic, 'five by five');
     }
   }
 }).export(module);
